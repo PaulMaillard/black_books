@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.Black-Books.uk$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.Black-Books.uk$
+RewriteCond %{REQUEST_URI} !web/
+RewriteRule (.*) /web/$1 [L]

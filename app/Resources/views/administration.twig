@@ -1,0 +1,17 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <div id="wrapper" class="container-fluid">
+        <div id="controls" class="col-xs-12">
+            <button id="getBooks">Browse books</button>
+        </div>
+
+        <div id="content" class="col-xs-12">
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent()}}
+{% endblock %}

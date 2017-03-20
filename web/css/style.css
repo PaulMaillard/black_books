@@ -1,0 +1,56 @@
+/* 
+    Created on : 15 mars 2017, 18:29:34
+    Author     : paul-maillard
+*/
+
+#controls {
+    background-color: #f5e79e;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+}
+
+table.books tr td{
+    height: 50px;
+    margin: 10px;
+    line-height: 50px;
+}
+
+table.books td{
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+table.books tr{
+    cursor: pointer;
+}
+
+table.books td:first-child{
+    text-align: center;
+}
+
+table.books tr:nth-child(2n) {
+    background-color: #faebcc;
+}
+
+table.books tr:nth-child(2n+1) {
+    background-color: #f5e79e;
+}
+
+table.books tr:nth-child(1) {
+    background-color: #fff;
+    height: 75px;
+    line-height: 75px;
+    font-size: 1.7em;
+    cursor: default;
+}
+
+table.books tr:hover{
+    background-color: #fff;
+}
